@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>File metadata</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3
+.3.6/css/bootstrap.min.css">
+       <link rel='stylesheet' type='text/css' href='filedata.css'>
+    </head>
+    <body>
+        <div class="container">
+        <h2 class="header">FCC API Basejump: File metadata</h2>
+        <blockquote>
+                User stories:
+                <ul>1) I can submit a FormData object that includes a file upload.</ul>
+                <ul>2) When I submit something, I will receive the file size in bytes within the JSON response</ul>
+            </blockquote>
+
+            <h3>Example output:</h3>
+
+            <code>{filename: "file.txt", size: 118}</code>
+
+
+        <h3>Upload you file</h3>
+        <div class='container' id='search'>
+        <form method="post" enctype="multipart/form-data"  action="/upload">
+      <span class="btn btn-default "><input type="file" id="in" name="myfile"></span>
+      <input type="submit" value="Submit" class="btn btn-primary" id="submitButton" onclick="recent()">
+    </form>
+    </div>
+  </div>
+    </body>
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.mi
+n.js"></script>
+</html>

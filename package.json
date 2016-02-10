@@ -1,0 +1,28 @@
+{
+  "name": "filemetadata",
+  "version": "1.0.0",
+  "description": "Prepared for FreeCodeCamp's [File metadata microservice basejump]{http://www.freecodecamp.com/challenges/file-metadata-microservice}",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.13.4",
+    "multer": "^2.14.12"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "ktakats",
+  "license": "ISC",
+  "dependencies": {
+    "semver": "^5.1.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ktakats/file-metadata.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ktakats/file-metadata/issues"
+  },
+  "homepage": "https://github.com/ktakats/file-metadata#readme"
+}
